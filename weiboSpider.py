@@ -665,7 +665,7 @@ class Weibo(object):
                                     '-' * 30, self.user['nickname'],
                                     self.user['id'], page, '-' * 30))
                                 return True
-                        self.print_one_weibo(weibo)
+                        # self.print_one_weibo(weibo)
                         self.weibo.append(weibo)
                         self.weibo_id_list.append(weibo['id'])
                         self.got_num += 1
